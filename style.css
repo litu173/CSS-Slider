@@ -1,0 +1,65 @@
+
+@keyframes slider {
+	0% {
+		left: 0;
+	}
+
+	19% {
+		left: -0;
+	}
+
+	20% {
+		left: -100%;
+	}
+
+	39% {
+		left: -100%;
+	}
+
+	40% {
+		left: -200%;
+	}
+
+	59% {
+		left: -200%;
+	}
+
+	60% {
+		left: -300%;
+	}
+
+	79% {
+		left: -300%;
+	}
+
+	80% {
+		left: -400%;
+	}
+
+	99% {
+		left: -400%;
+	}
+
+	100% {
+		left: 0%;
+	}
+}
+
+#css_l_slider {
+	overflow: hidden;
+}
+
+#css_l_slider figure {
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	text-align: left;
+	font-size: 0;
+	animation: 20s slider infinite;
+}
+
+#css_l_slider figure img {
+	width: 20%;
+	float: left;
+}
